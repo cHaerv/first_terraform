@@ -6,7 +6,9 @@ this project is a proof of concept for creating azure resources and managing the
 
 * firstly install terraform on your machine if you havent already. https://developer.hashicorp.com/terraform/install
 * secondly run the terraform init command
-``` terraform init ```
+```
+terraform init
+```
 
 * go to your azure portal or shell of choice, using Entra Idan create an app registry for your terraform to have permissions in your azure subscription
 * create a terraform.tfvars file and copy the following code ensuring you provide your own values for your azure subscription for the following code
@@ -28,9 +30,16 @@ tenant_id =
 ## Deployment and destroy
 * finally tweak the resources or deploy them as described running the following commands
 
-``` terraform plan ```
-``` terraform apply ```
+``` 
+terraform plan
+```
+
+``` 
+terraform apply
+```
 followed by entering yes when prompted
 
 * to destroy the created resource group and resources run the following command
-``` terraform destroy ```
+```
+terraform destroy
+```
