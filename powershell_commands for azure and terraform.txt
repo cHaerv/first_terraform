@@ -1,0 +1,1 @@
+az vm image list --all --publisher="Canonical" --sku="20_04-lts-gen2" // this command lists the available skus for ubuntu server and their architechture in a json format
