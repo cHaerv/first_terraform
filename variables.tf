@@ -30,6 +30,3 @@ variable "prefix" {
   default = "cH"
 }
 
-variable "location" {
-  default = "ukSouth"
-}
